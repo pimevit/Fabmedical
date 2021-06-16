@@ -19,9 +19,9 @@ on:
 # Environment variables are defined so that they can be used throughout the job definitions.
 env:
  imageRepository: 'content-web'
- resourceGroupName: 'fabmedical-419498'
- containerRegistryName: 'acr419498'
- containerRegistry: 'acr419498.azurecr.io'
+ resourceGroupName: 'fabmedical-419895'
+ containerRegistryName: 'acr419895'
+ containerRegistry: 'acr419895.azurecr.io'
  dockerfilePath: './content-web'
  tag: '${{ github.run_id  }}'
 
